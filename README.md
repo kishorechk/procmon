@@ -1,4 +1,4 @@
-## Process Orchestrator
+## Process Monitor
 
 A simple headless process-orchestrator that will run on your workstation (one of Windows / Mac or Linux). This process-orchestrator is responsible to read a list of processes from a reference file and to keep these processes running at all times.
 
@@ -10,15 +10,15 @@ Java 8
 
 ### Exceution steps
 
-1. unzip the source code folder
-2. cd process-orchestrator
+1. git clone
+2. cd procmon
 3. compile source code
    ```
    \$MAVEN_HOME/bin/mvn clean package
    ```
 4. start the app
    ```
-   $JAVA_HOME/bin/java -jar target/process-orchestrator-1.0-SNAPSHOT.jar input-file.txt
+   $JAVA_HOME/bin/java -jar target/procmon-1.0.jar input-file.txt
    ```
 5. Testing scenarios
 
