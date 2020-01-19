@@ -1,6 +1,6 @@
 ## Process Monitor
 
-A simple headless process-orchestrator that will run on your workstation (one of Windows / Mac or Linux). This process-orchestrator is responsible to read a list of processes from a reference file and to keep these processes running at all times.
+A simple headless process-orchestrator that will run on your workstation (one of Windows / Mac or Linux). This process monitor is responsible to read a list of processes from a reference file and to keep these processes running at all times.
 
 ### Developer environment
 
