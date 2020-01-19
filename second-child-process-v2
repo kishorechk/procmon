@@ -1,0 +1,7 @@
+#!/bin/bash
+while true
+do
+	echo "second-child-process-v2 Press CTRL+C to stop the script execution"
+	# Enter your desired command in this block.
+    sleep 60s
+done
